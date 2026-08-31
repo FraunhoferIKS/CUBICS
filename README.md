@@ -205,7 +205,7 @@ Figures are written to `outputs/`:
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{cubics2025,
+@inproceedings{cubics2026,
   title     = {[CUBICS: Situation-aware performance estimation for safety-relevant ML components]},
   author    = {[Benjamin Herd, Jessica Kelly, Mario Trapp]},
   booktitle = {[ISSRE]},
