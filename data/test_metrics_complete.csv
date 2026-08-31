@@ -1,0 +1,319 @@
+Scenario,Weather,TimeOfDay,Class,Images_in_Subset,Class_Instances_GT,True_Positives,False_Negatives,False_Positives,mAP50-95,Recall,Precision
+Clear (All Times),clear,All,person,10756,8808,5449,3359,1537,0.4478,0.6186,0.78
+Clear (All Times),clear,All,rider,10756,569,303,266,100,0.4104,0.5325,0.7519
+Clear (All Times),clear,All,car,10756,106935,80969,25966,16583,0.5747,0.7572,0.83
+Clear (All Times),clear,All,truck,10756,3830,2526,1304,1073,0.5723,0.6595,0.7019
+Clear (All Times),clear,All,bus,10756,1343,835,508,401,0.5804,0.6217,0.6756
+Clear (All Times),clear,All,train,10756,12,2,10,0,0.3771,0.1667,1.0
+Clear (All Times),clear,All,motor,10756,434,228,206,83,0.3886,0.5253,0.7331
+Clear (All Times),clear,All,bike,10756,774,433,341,212,0.3683,0.5594,0.6713
+Clear (All Times),clear,All,traffic light,10756,28189,19294,8895,6851,0.3196,0.6845,0.738
+Clear (All Times),clear,All,traffic sign,10756,36254,26113,10141,8491,0.4797,0.7203,0.7546
+Undefined (All Times),undefined,All,person,2340,6574,4567,2007,1001,0.4914,0.6947,0.8202
+Undefined (All Times),undefined,All,rider,2340,233,136,97,28,0.4714,0.5837,0.8293
+Undefined (All Times),undefined,All,car,2340,23799,19719,4080,3296,0.6548,0.8286,0.8568
+Undefined (All Times),undefined,All,truck,2340,1214,815,399,366,0.5939,0.6713,0.69
+Undefined (All Times),undefined,All,bus,2340,515,321,194,142,0.5707,0.6233,0.6927
+Undefined (All Times),undefined,All,train,2340,1,0,1,N/A,0.0,0.0,0.0
+Undefined (All Times),undefined,All,motor,2340,149,85,64,27,0.4331,0.5705,0.7587
+Undefined (All Times),undefined,All,bike,2340,482,315,167,94,0.4614,0.6535,0.7696
+Undefined (All Times),undefined,All,traffic light,2340,5923,4304,1619,1303,0.3871,0.7267,0.7676
+Undefined (All Times),undefined,All,traffic sign,2340,8103,5851,2252,1752,0.4826,0.7221,0.7696
+Overcast (All Times),overcast,All,person,2568,4176,2812,1364,637,0.4834,0.6734,0.8153
+Overcast (All Times),overcast,All,rider,2568,253,139,114,35,0.4307,0.5494,0.7989
+Overcast (All Times),overcast,All,car,2568,30641,24795,5846,4240,0.6306,0.8092,0.854
+Overcast (All Times),overcast,All,truck,2568,1605,1067,538,430,0.5907,0.6648,0.7128
+Overcast (All Times),overcast,All,bus,2568,566,368,198,176,0.6017,0.6502,0.6765
+Overcast (All Times),overcast,All,train,2568,9,1,8,4,0.0262,0.1111,0.2
+Overcast (All Times),overcast,All,motor,2568,140,85,55,41,0.4296,0.6071,0.6746
+Overcast (All Times),overcast,All,bike,2568,332,188,144,76,0.3767,0.5663,0.7121
+Overcast (All Times),overcast,All,traffic light,2568,6752,5080,1672,1515,0.399,0.7524,0.7703
+Overcast (All Times),overcast,All,traffic sign,2568,9870,7196,2674,2237,0.4914,0.7291,0.7629
+Snowy (All Times),snowy,All,person,1551,2195,1513,682,309,0.4967,0.6893,0.8304
+Snowy (All Times),snowy,All,rider,1551,51,25,26,5,0.4671,0.4902,0.8333
+Snowy (All Times),snowy,All,car,1551,14704,11543,3161,1932,0.6195,0.785,0.8566
+Snowy (All Times),snowy,All,truck,1551,707,452,255,193,0.5677,0.6399,0.701
+Snowy (All Times),snowy,All,bus,1551,277,163,114,75,0.5548,0.5884,0.6834
+Snowy (All Times),snowy,All,train,1551,1,1,0,0,0.4975,1.0,1.0
+Snowy (All Times),snowy,All,motor,1551,22,5,17,3,0.2454,0.2273,0.625
+Snowy (All Times),snowy,All,bike,1551,156,81,75,49,0.3478,0.5162,0.6217
+Snowy (All Times),snowy,All,traffic light,1551,4900,3484,1416,1167,0.3456,0.711,0.7491
+Snowy (All Times),snowy,All,traffic sign,1551,5225,3867,1358,1222,0.4747,0.7401,0.7599
+Rainy (All Times),rainy,All,person,1306,1193,746,447,177,0.4436,0.6253,0.8082
+Rainy (All Times),rainy,All,rider,1306,47,30,17,6,0.5112,0.6383,0.8333
+Rainy (All Times),rainy,All,car,1306,12277,9376,2901,1763,0.5953,0.7637,0.8417
+Rainy (All Times),rainy,All,truck,1306,502,327,175,140,0.5673,0.6514,0.7002
+Rainy (All Times),rainy,All,bus,1306,194,122,72,73,0.557,0.6289,0.6256
+Rainy (All Times),rainy,All,train,1306,3,0,3,N/A,0.0,0.0,0.0
+Rainy (All Times),rainy,All,motor,1306,30,11,19,7,0.3138,0.3667,0.6111
+Rainy (All Times),rainy,All,bike,1306,70,38,32,22,0.3924,0.5429,0.6333
+Rainy (All Times),rainy,All,traffic light,1306,3904,2625,1279,948,0.3261,0.6724,0.7347
+Rainy (All Times),rainy,All,traffic sign,1306,4128,2977,1151,967,0.4649,0.7212,0.7548
+Partly cloudy (All Times),partly cloudy,All,person,1441,1652,1073,579,244,0.4823,0.6495,0.8147
+Partly cloudy (All Times),partly cloudy,All,rider,1441,139,68,71,21,0.4076,0.4892,0.762
+Partly cloudy (All Times),partly cloudy,All,car,1441,16494,13284,3210,1915,0.638,0.8054,0.874
+Partly cloudy (All Times),partly cloudy,All,truck,1441,833,547,286,237,0.5971,0.6569,0.6978
+Partly cloudy (All Times),partly cloudy,All,bus,1441,319,178,141,71,0.5797,0.5595,0.7154
+Partly cloudy (All Times),partly cloudy,All,train,1441,2,0,2,N/A,0.0,0.0,0.0
+Partly cloudy (All Times),partly cloudy,All,motor,1441,65,45,20,12,0.493,0.6923,0.7925
+Partly cloudy (All Times),partly cloudy,All,bike,1441,183,87,96,38,0.3643,0.4754,0.697
+Partly cloudy (All Times),partly cloudy,All,traffic light,1441,3101,2272,829,587,0.4124,0.7325,0.7947
+Partly cloudy (All Times),partly cloudy,All,traffic sign,1441,5324,3723,1601,977,0.4948,0.6993,0.7921
+Foggy (All Times),foggy,All,person,38,52,19,33,3,0.3354,0.3654,0.8636
+Foggy (All Times),foggy,All,rider,38,2,1,1,0,0.675,0.5,1.0
+Foggy (All Times),foggy,All,car,38,300,226,74,38,0.5766,0.7533,0.8561
+Foggy (All Times),foggy,All,truck,38,13,11,2,0,0.8293,0.8462,1.0
+Foggy (All Times),foggy,All,bus,38,3,2,1,0,0.6001,0.6667,1.0
+Foggy (All Times),foggy,All,motor,38,1,1,0,0,0.6965,1.0,1.0
+Foggy (All Times),foggy,All,bike,38,1,0,1,N/A,0.0,0.0,0.0
+Foggy (All Times),foggy,All,traffic light,38,71,52,19,12,0.3547,0.7324,0.8125
+Foggy (All Times),foggy,All,traffic sign,38,102,73,29,15,0.5148,0.7157,0.8295
+Daytime (All Weather),All,daytime,person,10446,17544,11973,5571,2823,0.4841,0.6825,0.8092
+Daytime (All Weather),All,daytime,rider,10446,939,521,418,136,0.4415,0.5548,0.793
+Daytime (All Weather),All,daytime,car,10446,115367,94232,21135,15973,0.64,0.8168,0.8551
+Daytime (All Weather),All,daytime,truck,10446,6304,4209,2095,1772,0.5881,0.6677,0.7037
+Daytime (All Weather),All,daytime,bus,10446,2281,1448,833,660,0.5899,0.6348,0.6869
+Daytime (All Weather),All,daytime,train,10446,18,2,16,4,0.0708,0.1111,0.3333
+Daytime (All Weather),All,daytime,motor,10446,596,357,239,113,0.4397,0.599,0.7596
+Daytime (All Weather),All,daytime,bike,10446,1464,849,615,357,0.4055,0.5799,0.704
+Daytime (All Weather),All,daytime,traffic light,10446,24617,18498,6119,5380,0.4071,0.7514,0.7747
+Daytime (All Weather),All,daytime,traffic sign,10446,37705,27488,10217,8329,0.4942,0.729,0.7675
+Night (All Weather),All,night,person,8036,5158,3006,2152,874,0.4239,0.5828,0.7747
+Night (All Weather),All,night,rider,8036,248,125,123,41,0.403,0.504,0.753
+Night (All Weather),All,night,car,8036,73145,52665,20480,12067,0.5337,0.72,0.8136
+Night (All Weather),All,night,truck,8036,1670,1073,597,493,0.5527,0.6425,0.6852
+Night (All Weather),All,night,bus,8036,599,340,259,208,0.5244,0.5676,0.6204
+Night (All Weather),All,night,train,8036,6,1,5,0,0.35,0.1667,1.0
+Night (All Weather),All,night,motor,8036,173,61,112,39,0.2717,0.3526,0.61
+Night (All Weather),All,night,bike,8036,408,220,188,118,0.3375,0.5392,0.6509
+Night (All Weather),All,night,traffic light,8036,24258,15945,8313,6250,0.2722,0.6573,0.7184
+Night (All Weather),All,night,traffic sign,8036,26042,18759,7283,6356,0.464,0.7203,0.7469
+Dawn/dusk (All Weather),All,dawn/dusk,person,1476,1945,1269,676,317,0.4825,0.6524,0.8001
+Dawn/dusk (All Weather),All,dawn/dusk,rider,1476,105,55,50,22,0.3994,0.5238,0.7143
+Dawn/dusk (All Weather),All,dawn/dusk,car,1476,16421,13178,3243,2284,0.6222,0.8025,0.8523
+Dawn/dusk (All Weather),All,dawn/dusk,truck,1476,718,476,242,201,0.5737,0.663,0.7031
+Dawn/dusk (All Weather),All,dawn/dusk,bus,1476,335,208,127,87,0.5903,0.6209,0.7051
+Dawn/dusk (All Weather),All,dawn/dusk,train,1476,4,1,3,0,0.4375,0.25,1.0
+Dawn/dusk (All Weather),All,dawn/dusk,motor,1476,64,37,27,23,0.3915,0.5781,0.6167
+Dawn/dusk (All Weather),All,dawn/dusk,bike,1476,126,79,47,39,0.3775,0.627,0.6695
+Dawn/dusk (All Weather),All,dawn/dusk,traffic light,1476,3939,2791,1148,914,0.3576,0.7086,0.7533
+Dawn/dusk (All Weather),All,dawn/dusk,traffic sign,1476,5227,3667,1560,1207,0.477,0.7015,0.7524
+Undefined (All Weather),All,undefined,person,42,3,3,0,0,0.6369,1.0,1.0
+Undefined (All Weather),All,undefined,rider,42,2,2,0,0,0.7092,1.0,1.0
+Undefined (All Weather),All,undefined,car,42,217,171,46,27,0.654,0.788,0.8649
+Undefined (All Weather),All,undefined,truck,42,12,10,2,4,0.6468,0.8333,0.7143
+Undefined (All Weather),All,undefined,bus,42,2,2,0,0,0.933,1.0,1.0
+Undefined (All Weather),All,undefined,motor,42,8,5,3,0,0.4473,0.625,1.0
+Undefined (All Weather),All,undefined,traffic light,42,26,12,14,7,0.1975,0.4615,0.6316
+Undefined (All Weather),All,undefined,traffic sign,42,32,18,14,13,0.3529,0.5625,0.5731
+Clear + Daytime,clear,daytime,person,3572,4242,2758,1484,733,0.4652,0.6502,0.79
+Clear + Daytime,clear,daytime,rider,3572,331,184,147,56,0.4303,0.5559,0.7667
+Clear + Daytime,clear,daytime,car,3572,39711,32096,7615,5594,0.6315,0.8082,0.8516
+Clear + Daytime,clear,daytime,truck,3572,2205,1461,744,590,0.5831,0.6626,0.7123
+Clear + Daytime,clear,daytime,bus,3572,754,497,257,216,0.6132,0.6592,0.6971
+Clear + Daytime,clear,daytime,train,3572,6,0,6,N/A,0.0,0.0,0.0
+Clear + Daytime,clear,daytime,motor,3572,268,164,104,43,0.4397,0.6119,0.7923
+Clear + Daytime,clear,daytime,bike,3572,413,235,178,109,0.4024,0.569,0.6831
+Clear + Daytime,clear,daytime,traffic light,3572,7196,5386,1810,1553,0.4155,0.7485,0.7762
+Clear + Daytime,clear,daytime,traffic sign,3572,12564,9092,3472,2761,0.5036,0.7237,0.7671
+Clear + Night,clear,night,person,6618,4026,2328,1698,708,0.4232,0.5782,0.7668
+Clear + Night,clear,night,rider,6618,209,102,107,38,0.3858,0.488,0.7286
+Clear + Night,clear,night,car,6618,60936,43812,17124,10134,0.53,0.719,0.8121
+Clear + Night,clear,night,truck,6618,1373,888,485,404,0.5545,0.6468,0.6873
+Clear + Night,clear,night,bus,6618,493,281,212,163,0.5269,0.57,0.6329
+Clear + Night,clear,night,train,6618,3,1,2,0,0.4,0.3333,1.0
+Clear + Night,clear,night,motor,6618,144,51,93,36,0.2647,0.3542,0.5862
+Clear + Night,clear,night,bike,6618,326,175,151,91,0.3331,0.5368,0.6579
+Clear + Night,clear,night,traffic light,6618,19526,12874,6652,4970,0.2717,0.6593,0.7215
+Clear + Night,clear,night,traffic sign,6618,21688,15596,6092,5278,0.4653,0.7191,0.7471
+Clear + Dawn/dusk,clear,dawn/dusk,person,565,540,363,177,96,0.4909,0.6722,0.7908
+Clear + Dawn/dusk,clear,dawn/dusk,rider,565,28,16,12,6,0.3995,0.5714,0.7273
+Clear + Dawn/dusk,clear,dawn/dusk,car,565,6277,5053,1224,855,0.621,0.805,0.8553
+Clear + Dawn/dusk,clear,dawn/dusk,truck,565,251,176,75,79,0.5845,0.7012,0.6902
+Clear + Dawn/dusk,clear,dawn/dusk,bus,565,96,57,39,22,0.6098,0.5938,0.7215
+Clear + Dawn/dusk,clear,dawn/dusk,train,565,3,1,2,0,0.4667,0.3333,1.0
+Clear + Dawn/dusk,clear,dawn/dusk,motor,565,21,12,9,4,0.5304,0.5714,0.75
+Clear + Dawn/dusk,clear,dawn/dusk,bike,565,35,23,12,12,0.3222,0.6571,0.6571
+Clear + Dawn/dusk,clear,dawn/dusk,traffic light,565,1462,1033,429,325,0.3718,0.7066,0.7607
+Clear + Dawn/dusk,clear,dawn/dusk,traffic sign,565,1999,1424,575,450,0.4838,0.7124,0.7599
+Clear + Undefined,clear,undefined,rider,1,1,1,0,0,0.398,1.0,1.0
+Clear + Undefined,clear,undefined,car,1,11,6,5,0,0.4162,0.559,1.0
+Clear + Undefined,clear,undefined,truck,1,1,1,0,0,0.597,1.0,1.0
+Clear + Undefined,clear,undefined,motor,1,1,1,0,0,0.2985,1.0,1.0
+Clear + Undefined,clear,undefined,traffic light,1,5,1,4,2,0.0296,0.2,0.3653
+Clear + Undefined,clear,undefined,traffic sign,1,3,1,2,2,0.1668,0.3333,0.36
+Undefined + Daytime,undefined,daytime,person,2025,6043,4237,1806,928,0.4922,0.7011,0.8203
+Undefined + Daytime,undefined,daytime,rider,2025,207,125,82,25,0.4725,0.6039,0.8333
+Undefined + Daytime,undefined,daytime,car,2025,21131,17624,3507,2958,0.6587,0.834,0.8563
+Undefined + Daytime,undefined,daytime,truck,2025,1109,744,365,334,0.595,0.6706,0.6901
+Undefined + Daytime,undefined,daytime,bus,2025,461,292,169,134,0.5756,0.6341,0.6857
+Undefined + Daytime,undefined,daytime,train,2025,1,0,1,N/A,0.0,0.0,0.0
+Undefined + Daytime,undefined,daytime,motor,2025,123,71,52,20,0.4567,0.5772,0.7773
+Undefined + Daytime,undefined,daytime,bike,2025,448,287,161,91,0.4493,0.6406,0.7583
+Undefined + Daytime,undefined,daytime,traffic light,2025,5141,3811,1330,1117,0.3996,0.7413,0.7733
+Undefined + Daytime,undefined,daytime,traffic sign,2025,7258,5265,1993,1567,0.4841,0.7254,0.7706
+Undefined + Night,undefined,night,person,130,149,93,56,19,0.4881,0.6209,0.8296
+Undefined + Night,undefined,night,rider,130,4,2,2,0,0.5925,0.5,1.0
+Undefined + Night,undefined,night,car,130,940,690,250,100,0.5926,0.7346,0.8735
+Undefined + Night,undefined,night,truck,130,26,17,9,10,0.5913,0.6538,0.6296
+Undefined + Night,undefined,night,bus,130,15,9,6,3,0.4769,0.6,0.75
+Undefined + Night,undefined,night,motor,130,5,3,2,0,0.4132,0.6,1.0
+Undefined + Night,undefined,night,bike,130,2,1,1,2,0.464,0.5,0.3333
+Undefined + Night,undefined,night,traffic light,130,316,190,126,83,0.2746,0.6013,0.697
+Undefined + Night,undefined,night,traffic sign,130,309,222,87,69,0.4583,0.7178,0.7627
+Undefined + Dawn/dusk,undefined,dawn/dusk,person,146,379,241,138,63,0.4838,0.6359,0.7928
+Undefined + Dawn/dusk,undefined,dawn/dusk,rider,146,21,8,13,3,0.4193,0.381,0.7273
+Undefined + Dawn/dusk,undefined,dawn/dusk,car,146,1533,1268,265,250,0.6393,0.8271,0.8353
+Undefined + Dawn/dusk,undefined,dawn/dusk,truck,146,68,46,22,20,0.5963,0.6765,0.697
+Undefined + Dawn/dusk,undefined,dawn/dusk,bus,146,37,19,18,6,0.5384,0.5135,0.76
+Undefined + Dawn/dusk,undefined,dawn/dusk,motor,146,14,7,7,7,0.2706,0.5,0.5
+Undefined + Dawn/dusk,undefined,dawn/dusk,bike,146,32,27,5,3,0.6211,0.8438,0.9
+Undefined + Dawn/dusk,undefined,dawn/dusk,traffic light,146,445,303,142,112,0.3181,0.6809,0.7301
+Undefined + Dawn/dusk,undefined,dawn/dusk,traffic sign,146,507,357,150,122,0.4889,0.7041,0.7453
+Undefined + Undefined,undefined,undefined,person,39,3,3,0,0,0.6369,1.0,1.0
+Undefined + Undefined,undefined,undefined,rider,39,1,1,0,0,0.8955,1.0,1.0
+Undefined + Undefined,undefined,undefined,car,39,195,155,40,27,0.6581,0.7949,0.8515
+Undefined + Undefined,undefined,undefined,truck,39,11,9,2,4,0.6556,0.8182,0.6923
+Undefined + Undefined,undefined,undefined,bus,39,2,2,0,0,0.933,1.0,1.0
+Undefined + Undefined,undefined,undefined,motor,39,7,4,3,0,0.4881,0.5714,1.0
+Undefined + Undefined,undefined,undefined,traffic light,39,21,11,10,4,0.2384,0.5238,0.7333
+Undefined + Undefined,undefined,undefined,traffic sign,39,29,17,12,11,0.3699,0.5862,0.5979
+Overcast + Daytime,overcast,daytime,person,2163,3658,2469,1189,564,0.4845,0.675,0.814
+Overcast + Daytime,overcast,daytime,rider,2163,216,116,100,31,0.4245,0.537,0.7891
+Overcast + Daytime,overcast,daytime,car,2163,26056,21115,4941,3604,0.6328,0.8104,0.8542
+Overcast + Daytime,overcast,daytime,truck,2163,1419,940,479,373,0.5904,0.6624,0.7159
+Overcast + Daytime,overcast,daytime,bus,2163,468,302,166,150,0.5986,0.6453,0.6681
+Overcast + Daytime,overcast,daytime,train,2163,8,1,7,4,0.0269,0.125,0.2
+Overcast + Daytime,overcast,daytime,motor,2163,120,73,47,32,0.4439,0.6083,0.6952
+Overcast + Daytime,overcast,daytime,bike,2163,304,171,133,62,0.3881,0.5625,0.7339
+Overcast + Daytime,overcast,daytime,traffic light,2163,5682,4313,1369,1238,0.4059,0.7591,0.777
+Overcast + Daytime,overcast,daytime,traffic sign,2163,8404,6144,2260,1884,0.4924,0.7311,0.7653
+Overcast + Night,overcast,night,person,28,20,17,3,1,0.5001,0.85,0.9444
+Overcast + Night,overcast,night,car,28,270,203,67,54,0.5783,0.7519,0.7899
+Overcast + Night,overcast,night,truck,28,11,9,2,2,0.693,0.8182,0.8182
+Overcast + Night,overcast,night,train,28,1,0,1,N/A,0.0,0.0,0.0
+Overcast + Night,overcast,night,traffic light,28,60,40,20,14,0.3084,0.6667,0.7407
+Overcast + Night,overcast,night,traffic sign,28,74,51,23,25,0.4355,0.6892,0.6711
+Overcast + Dawn/dusk,overcast,dawn/dusk,person,377,498,315,183,49,0.4773,0.6325,0.8655
+Overcast + Dawn/dusk,overcast,dawn/dusk,rider,377,37,22,15,2,0.4819,0.5977,0.9171
+Overcast + Dawn/dusk,overcast,dawn/dusk,car,377,4315,3369,946,430,0.6209,0.7809,0.8868
+Overcast + Dawn/dusk,overcast,dawn/dusk,truck,377,175,117,58,51,0.5926,0.6686,0.695
+Overcast + Dawn/dusk,overcast,dawn/dusk,bus,377,98,64,34,22,0.6266,0.6579,0.7456
+Overcast + Dawn/dusk,overcast,dawn/dusk,motor,377,20,11,9,4,0.3736,0.55,0.7298
+Overcast + Dawn/dusk,overcast,dawn/dusk,bike,377,28,15,13,9,0.3051,0.5296,0.6222
+Overcast + Dawn/dusk,overcast,dawn/dusk,traffic light,377,1010,691,319,200,0.3649,0.684,0.7755
+Overcast + Dawn/dusk,overcast,dawn/dusk,traffic sign,377,1392,971,421,260,0.4887,0.6976,0.7888
+Snowy + Daytime,snowy,daytime,person,790,1383,952,431,111,0.5209,0.6884,0.8959
+Snowy + Daytime,snowy,daytime,rider,790,27,15,12,1,0.5358,0.5556,0.9391
+Snowy + Daytime,snowy,daytime,car,790,7577,5867,1710,615,0.6527,0.7743,0.9051
+Snowy + Daytime,snowy,daytime,truck,790,493,298,195,93,0.5893,0.605,0.7623
+Snowy + Daytime,snowy,daytime,bus,790,191,103,88,34,0.5504,0.5393,0.7498
+Snowy + Daytime,snowy,daytime,train,790,1,1,0,0,0.4975,1.0,1.0
+Snowy + Daytime,snowy,daytime,motor,790,11,3,8,3,0.258,0.2727,0.5241
+Snowy + Daytime,snowy,daytime,bike,790,81,41,40,13,0.3684,0.5062,0.7634
+Snowy + Daytime,snowy,daytime,traffic light,790,2257,1592,665,293,0.4055,0.7052,0.8445
+Snowy + Daytime,snowy,daytime,traffic sign,790,2722,1932,790,437,0.4892,0.7096,0.8155
+Snowy + Night,snowy,night,person,631,558,334,224,83,0.4394,0.5986,0.801
+Snowy + Night,snowy,night,rider,631,15,7,8,1,0.4856,0.4667,0.875
+Snowy + Night,snowy,night,car,631,5604,4219,1385,863,0.5701,0.7529,0.8302
+Snowy + Night,snowy,night,truck,631,133,85,48,46,0.5405,0.6391,0.6489
+Snowy + Night,snowy,night,bus,631,38,22,16,16,0.5643,0.5789,0.5789
+Snowy + Night,snowy,night,motor,631,9,1,8,0,0.4444,0.1111,1.0
+Snowy + Night,snowy,night,bike,631,56,29,27,16,0.3517,0.5179,0.6444
+Snowy + Night,snowy,night,traffic light,631,2218,1491,727,649,0.2728,0.6722,0.6967
+Snowy + Night,snowy,night,traffic sign,631,2036,1521,515,521,0.4648,0.7471,0.7449
+Snowy + Dawn/dusk,snowy,dawn/dusk,person,129,254,168,86,48,0.4887,0.6614,0.7778
+Snowy + Dawn/dusk,snowy,dawn/dusk,rider,129,9,3,6,2,0.2197,0.3333,0.6
+Snowy + Dawn/dusk,snowy,dawn/dusk,car,129,1517,1199,318,205,0.6263,0.7904,0.854
+Snowy + Dawn/dusk,snowy,dawn/dusk,truck,129,81,47,34,20,0.4963,0.5802,0.7015
+Snowy + Dawn/dusk,snowy,dawn/dusk,bus,129,48,31,17,9,0.5919,0.6458,0.775
+Snowy + Dawn/dusk,snowy,dawn/dusk,motor,129,2,1,1,0,0.15,0.5,1.0
+Snowy + Dawn/dusk,snowy,dawn/dusk,bike,129,19,7,12,4,0.2843,0.3684,0.6364
+Snowy + Dawn/dusk,snowy,dawn/dusk,traffic light,129,425,309,116,88,0.3462,0.7271,0.7783
+Snowy + Dawn/dusk,snowy,dawn/dusk,traffic sign,129,467,310,157,104,0.4354,0.6638,0.7488
+Snowy + Undefined,snowy,undefined,car,1,6,6,0,0,0.8459,1.0,1.0
+Rainy + Daytime,rainy,daytime,person,614,738,446,292,64,0.4649,0.6046,0.8746
+Rainy + Daytime,rainy,daytime,rider,614,26,15,11,2,0.5215,0.5769,0.8621
+Rainy + Daytime,rainy,daytime,car,614,6161,4921,1240,553,0.6487,0.7987,0.899
+Rainy + Daytime,rainy,daytime,truck,614,340,220,120,80,0.5774,0.6459,0.733
+Rainy + Daytime,rainy,daytime,bus,614,128,80,48,26,0.6038,0.625,0.7558
+Rainy + Daytime,rainy,daytime,train,614,1,0,1,N/A,0.0,0.0,0.0
+Rainy + Daytime,rainy,daytime,motor,614,13,4,9,1,0.3404,0.3077,0.7636
+Rainy + Daytime,rainy,daytime,bike,614,45,22,23,5,0.4245,0.4889,0.8251
+Rainy + Daytime,rainy,daytime,traffic light,614,1553,1058,495,241,0.3931,0.6813,0.8144
+Rainy + Daytime,rainy,daytime,traffic sign,614,1970,1386,584,330,0.4804,0.7036,0.8076
+Rainy + Night,rainy,night,person,603,375,218,157,57,0.3929,0.5813,0.7927
+Rainy + Night,rainy,night,rider,603,20,14,6,2,0.4823,0.7,0.875
+Rainy + Night,rainy,night,car,603,5200,3594,1606,863,0.5254,0.6912,0.8064
+Rainy + Night,rainy,night,truck,603,121,71,50,31,0.547,0.5868,0.6961
+Rainy + Night,rainy,night,bus,603,52,27,25,25,0.5013,0.5192,0.5192
+Rainy + Night,rainy,night,train,603,2,0,2,N/A,0.0,0.0,0.0
+Rainy + Night,rainy,night,motor,603,15,6,9,3,0.3154,0.4,0.6667
+Rainy + Night,rainy,night,bike,603,24,15,9,7,0.4064,0.625,0.6818
+Rainy + Night,rainy,night,traffic light,603,2085,1311,774,517,0.2715,0.6288,0.7172
+Rainy + Night,rainy,night,traffic sign,603,1886,1338,548,452,0.4537,0.7094,0.7475
+Rainy + Dawn/dusk,rainy,dawn/dusk,person,88,80,51,29,8,0.486,0.6375,0.8644
+Rainy + Dawn/dusk,rainy,dawn/dusk,rider,88,1,1,0,1,0.796,1.0,0.5
+Rainy + Dawn/dusk,rainy,dawn/dusk,car,88,911,690,221,123,0.5986,0.7574,0.8487
+Rainy + Dawn/dusk,rainy,dawn/dusk,truck,88,41,26,15,11,0.5711,0.6341,0.7027
+Rainy + Dawn/dusk,rainy,dawn/dusk,bus,88,14,7,7,10,0.471,0.5,0.4118
+Rainy + Dawn/dusk,rainy,dawn/dusk,motor,88,2,1,1,2,0.406,0.5,0.3333
+Rainy + Dawn/dusk,rainy,dawn/dusk,bike,88,1,0,1,N/A,0.0,0.0,0.0
+Rainy + Dawn/dusk,rainy,dawn/dusk,traffic light,88,266,182,84,70,0.299,0.6842,0.7222
+Rainy + Dawn/dusk,rainy,dawn/dusk,traffic sign,88,272,170,102,61,0.4388,0.625,0.7359
+Rainy + Undefined,rainy,undefined,car,1,5,5,0,0,0.7025,1.0,1.0
+Partly cloudy + Daytime,partly cloudy,daytime,person,1267,1474,979,495,242,0.4822,0.6642,0.8018
+Partly cloudy + Daytime,partly cloudy,daytime,rider,1267,130,65,65,19,0.4174,0.5,0.7738
+Partly cloudy + Daytime,partly cloudy,daytime,car,1267,14598,11946,2652,1943,0.6395,0.8183,0.8601
+Partly cloudy + Daytime,partly cloudy,daytime,truck,1267,727,498,229,234,0.599,0.685,0.6803
+Partly cloudy + Daytime,partly cloudy,daytime,bus,1267,279,157,122,64,0.5759,0.5627,0.7104
+Partly cloudy + Daytime,partly cloudy,daytime,train,1267,1,0,1,N/A,0.0,0.0,0.0
+Partly cloudy + Daytime,partly cloudy,daytime,motor,1267,60,41,19,11,0.4846,0.6833,0.7885
+Partly cloudy + Daytime,partly cloudy,daytime,bike,1267,172,85,87,44,0.3677,0.4942,0.6589
+Partly cloudy + Daytime,partly cloudy,daytime,traffic light,1267,2766,2087,679,602,0.415,0.7545,0.7761
+Partly cloudy + Daytime,partly cloudy,daytime,traffic sign,1267,4735,3401,1334,954,0.497,0.7183,0.7809
+Partly cloudy + Night,partly cloudy,night,person,7,6,5,1,2,0.4462,0.8333,0.7143
+Partly cloudy + Night,partly cloudy,night,car,7,66,54,12,16,0.6364,0.8182,0.7714
+Partly cloudy + Night,partly cloudy,night,truck,7,5,3,2,0,0.7262,0.6,1.0
+Partly cloudy + Night,partly cloudy,night,traffic light,7,17,12,5,3,0.4559,0.7059,0.8
+Partly cloudy + Night,partly cloudy,night,traffic sign,7,19,10,9,3,0.3884,0.5263,0.7692
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,person,167,172,105,67,18,0.4943,0.6105,0.8566
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,rider,167,9,4,5,2,0.303,0.4271,0.6563
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,car,167,1830,1395,435,157,0.6271,0.7623,0.8988
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,truck,167,101,56,45,15,0.5919,0.5541,0.7886
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,bus,167,40,27,13,12,0.6176,0.675,0.6877
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,train,167,1,0,1,N/A,0.0,0.0,0.0
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,motor,167,5,4,1,0,0.6046,0.7959,1.0
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,bike,167,11,5,6,1,0.3329,0.4545,0.7736
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,traffic light,167,318,204,114,38,0.3944,0.6416,0.843
+Partly cloudy + Dawn/dusk,partly cloudy,dawn/dusk,traffic sign,167,570,369,201,91,0.4826,0.6474,0.8022
+Foggy + Daytime,foggy,daytime,person,15,6,3,3,1,0.2208,0.5,0.75
+Foggy + Daytime,foggy,daytime,rider,15,2,1,1,0,0.675,0.5,1.0
+Foggy + Daytime,foggy,daytime,car,15,133,110,23,12,0.6403,0.8271,0.9035
+Foggy + Daytime,foggy,daytime,truck,15,11,10,1,0,0.856,0.9091,1.0
+Foggy + Daytime,foggy,daytime,motor,15,1,1,0,0,0.6965,1.0,1.0
+Foggy + Daytime,foggy,daytime,bike,15,1,0,1,N/A,0.0,0.0,0.0
+Foggy + Daytime,foggy,daytime,traffic light,15,22,18,4,1,0.3882,0.8182,0.9276
+Foggy + Daytime,foggy,daytime,traffic sign,15,52,43,9,6,0.5712,0.8201,0.8766
+Foggy + Night,foggy,night,person,19,24,11,13,2,0.3772,0.4583,0.8462
+Foggy + Night,foggy,night,car,19,129,87,42,21,0.5049,0.6744,0.8056
+Foggy + Night,foggy,night,truck,19,1,0,1,N/A,0.0,0.0,0.0
+Foggy + Night,foggy,night,bus,19,1,1,0,0,0.597,1.0,1.0
+Foggy + Night,foggy,night,traffic light,19,36,23,13,7,0.279,0.6389,0.7667
+Foggy + Night,foggy,night,traffic sign,19,30,20,10,3,0.5121,0.6667,0.8696
+Foggy + Dawn/dusk,foggy,dawn/dusk,person,4,22,5,17,0,0.3591,0.2273,1.0
+Foggy + Dawn/dusk,foggy,dawn/dusk,car,4,38,28,10,5,0.581,0.7369,0.8485
+Foggy + Dawn/dusk,foggy,dawn/dusk,truck,4,1,1,0,0,0.995,1.0,1.0
+Foggy + Dawn/dusk,foggy,dawn/dusk,bus,4,2,1,1,0,0.6,0.5,1.0
+Foggy + Dawn/dusk,foggy,dawn/dusk,traffic light,4,13,11,2,2,0.4803,0.8462,0.8572
+Foggy + Dawn/dusk,foggy,dawn/dusk,traffic sign,4,20,10,10,6,0.3815,0.5,0.6369
+Overall Test Baseline,All,All,bike,19900,1998,1138,860,469,0.0,0.5696,0.7082
+Overall Test Baseline,All,All,bus,19947,3217,1979,1238,912,0.0,0.6152,0.6845
+Overall Test Baseline,All,All,car,20000,205150,159512,45638,29382,0.0,0.7775,0.8445
+Overall Test Baseline,All,All,motor,19940,841,459,382,166,0.0,0.5458,0.7344
+Overall Test Baseline,All,All,person,19997,24650,16101,8549,3797,0.0,0.6532,0.8092
+Overall Test Baseline,All,All,rider,19940,1294,702,592,191,0.0,0.5425,0.7861
+Overall Test Baseline,All,All,traffic light,19998,52840,36951,15889,12129,0.0,0.6993,0.7529
+Overall Test Baseline,All,All,traffic sign,19998,69006,49650,19356,15397,0.0,0.7195,0.7633
+Overall Test Baseline,All,All,train,18412,28,4,24,4,0.0,0.1429,0.5
+Overall Test Baseline,All,All,truck,19998,8704,5723,2981,2397,0.0,0.6575,0.7048

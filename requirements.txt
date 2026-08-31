@@ -1,0 +1,4 @@
+scipy
+matplotlib
+ultralytics>=8.0.0
+pandas

@@ -1,0 +1,16 @@
+# bdd100k_main.yaml
+path: /groups/iks_users/read_write/public_datasets/bdd100k-safeai
+train: images/100k/train
+val: images/100k/val
+
+names:
+  0: person
+  1: rider
+  2: car
+  3: truck
+  4: bus
+  5: train
+  6: motorcycle
+  7: bicycle
+  8: traffic light
+  9: traffic sign

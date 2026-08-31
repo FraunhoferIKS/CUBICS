@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cubics"
+version = "0.1.0"
+description = "CUBICS: Context-Aware Uncertainty-Based Integrity Contract System"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib",
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+perception = ["ultralytics>=8.0.0"]
+dev = ["pytest>=7.0", "mypy>=1.5"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cubics"]
